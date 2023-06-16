@@ -1,5 +1,5 @@
-# Project Name Here
-Hello Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+# Watchman Rbot
+Ever feel as if there is pair of eyes always watching you 24/7? Ever feel as if you are getting stalked? Well this robot does just that. The Watchman Robot useses a pair of mechanical eyes built from 3D printed parts along with a camera to keep a constant "eye" on you behind its creepy mask.  
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -42,6 +42,10 @@ For your first milestone, describe what your project is and how you plan to buil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+# Starter project
+For my starter project I decided to make the TV-bigone kit. This small compact device majorly impacts large TVs with just a push of a button. No matter the company, place, or area, this pocket device can turn any TV off. So let us talk about the key parts in this project. Starting with the power supply, it uses 2 AA batteries. To emit the light to interact with the TVs, it uses IR LEDs which emit at 940nm. Obviously we have to include the button to start the code and finally it uses things like resonators and transistors to keep the current and electricity constant throughout the device. This was a great project to introduce circuits and LEDs which will help me in my main project that incorporates laser diodes. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pJAbVRicJ2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
