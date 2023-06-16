@@ -1,7 +1,7 @@
-# Watchman Rbot
+# Watchman Robot
 Ever feel as if there is pair of eyes always watching you 24/7? Ever feel as if you are getting stalked? Well this robot does just that. The Watchman Robot useses a pair of mechanical eyes built from 3D printed parts along with a camera to keep a constant "eye" on you behind its creepy mask.  
 
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
+| **Name** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Sharva P | Mission San Jose Highschool | Electrical Engineering | Incoming Senior
 
