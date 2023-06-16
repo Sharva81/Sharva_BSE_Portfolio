@@ -1,11 +1,11 @@
-# Watchman Robot
+```# Watchman Robot
 Ever feel as if there is pair of eyes always watching you 24/7? Ever feel as if you are getting stalked? Well this robot does just that. The Watchman Robot useses a pair of mechanical eyes built from 3D printed parts along with a camera to keep a constant "eye" on you behind its creepy mask.  
 
 | **Name** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Sharva P | Mission San Jose Highschool | Electrical Engineering | Incoming Senior
 
-// **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
   
