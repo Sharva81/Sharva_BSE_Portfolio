@@ -26,18 +26,12 @@ For your second milestone, explain what you've worked on since your previous mil
 -->
 
 # First Milestone
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
-
 First let’s talk about the components of the Robot. The eye mechanism is a complex robotic eye that is powered with 6 servos in total. 4 of the 6 servos are used to control the up down left and right movements of the eyeball. The other 2 are used for closing and opening eyelids. Inside eyeballs are laser diodes to help calibrate. Next let’s talk about the arduino board. I used an Arduino Uno r3 and a servo sheild, whiched is stacked on top, to power servos. It also powers the laser diodes that are regulated with a 5V relay. Finally I used a AIY vision kit to track the human face from camera. The challenges I faced had to do mainly with the eye mechanism. The assembly of the eye was took almost 3 days because the 3D printer and the parts to be assembled were small. The fragility of the parts made it prone to snapping; therefore, needing more prints. Since they were small eveerything was handtighthened by a allen key. Next was to figure out the wiring needed to power all the different parts. This was the first time using Arduino so I had to learn everything about it before assembling. My plan for the future is to figure out the code for the eyemechanism and the face tracking.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKRm5gqWMoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
 
-# Starter project
+# Starter Project
 For my starter project I decided to make the TV-B-Gone kit. This small compact device majorly impacts large TVs with just a push of a button. No matter the company, place, or area, this pocket device can turn any TV off. So let us talk about the key parts in this project. Starting with the power supply, it uses 2 AA batteries. To emit the light to interact with the TVs, it uses IR LEDs which emit at 940nm. Obviously we have to include the button to start the code and finally it uses things like resonators and transistors to keep the current and electricity constant throughout the device. This was a great project to introduce circuits and LEDs which will help me in my main project that incorporates laser diodes. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pJAbVRicJ2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
