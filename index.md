@@ -67,6 +67,9 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 -->
 
 # Code
+
+# Java 
+
 ```Java
 // This sketch receives serial information in the format <x,y,L1,L2> where the the variables (x,y,L1,L2) are degree values.
 // Angle values are then adjusted with calibration values before they are sent to each servo
@@ -297,6 +300,7 @@ while True:
     sleep(1)
 ```
 
+#Python
 ```Java
 
 #/usr/bin/env python3
