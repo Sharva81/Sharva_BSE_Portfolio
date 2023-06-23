@@ -259,11 +259,9 @@ float ConvertToCounts(float Degrees) {
            return Counts;
           
 }
-
 ```
 
 ```Python
-#!/usr/bin/env python3
 
 import picamera
 from PIL import Image
@@ -467,5 +465,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-
     ```
