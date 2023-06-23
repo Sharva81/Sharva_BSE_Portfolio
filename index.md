@@ -259,9 +259,7 @@ float ConvertToCounts(float Degrees) {
            return Counts;
           
 }
-```
 
-```Java
 #/usr/bin/env python3
 
 import picamera
