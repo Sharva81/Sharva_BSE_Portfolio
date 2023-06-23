@@ -275,26 +275,26 @@ camera.start_preview()
 
 // Load the arbitrarily sized image
 img = Image.open('Crosshair_Black.png')
-# Create an image padded to the required size with
-# mode 'RGB'
+// Create an image padded to the required size with
+// mode 'RGB'
 pad = Image.new('RGB', (
     ((img.size[0] + 31) // 32) * 32,
     ((img.size[1] + 15) // 16) * 16,
     ))
-# Paste the original image into the padded one
+// Paste the original image into the padded one
 pad.paste(img, (0, 0))
 
-# Add the overlay with the padded image as the source,
-# but the original image's dimensions
+// Add the overlay with the padded image as the source,
+// but the original image's dimensions
 o = camera.add_overlay(pad.tobytes(), size=img.size)
-# By default, the overlay is in layer 0, beneath the
-# preview (which defaults to layer 2). Here we make
-# the new overlay semi-transparent, then move it above
-# the preview
+// By default, the overlay is in layer 0, beneath the
+// preview (which defaults to layer 2). Here we make
+// the new overlay semi-transparent, then move it above
+// the preview
 o.alpha = 128
 o.layer = 3
 
-# Wait indefinitely until the user terminates the script
+// Wait indefinitely until the user terminates the script
 while True:
     sleep(1)
 
@@ -347,25 +347,25 @@ def main():
         L1_Degrees = 0
         L2_Degrees = 0
 
-        # Trying to slow down serial writing
+        // Trying to slow down serial writing
         Write_Delay = 5  # Milliseconds
         Last_Write_Time = time.time() * 1000  # Milliseconds
 
-        # Soft shutdown function
+        // Soft shutdown function
         def soft_shutdown():
-            # X_Degrees = 0
-            # Y_Degrees = 0
-            # L1_Degrees = -60
-            # L2_Degrees = -60
-            # ser.write(b"<%d,%d,%d,%d>" % (X_Degrees, Y_Degrees, L1_Degrees, L2_Degrees))
-            # camera.stop_preview()
-            # quit()
-            # thread.interrupt_main()
+            // X_Degrees = 0
+            // Y_Degrees = 0
+            // L1_Degrees = -60
+            // L2_Degrees = -60
+            // ser.write(b"<%d,%d,%d,%d>" % (X_Degrees, Y_Degrees, L1_Degrees, L2_Degrees))
+            // camera.stop_preview()
+            // quit()
+            // thread.interrupt_main()
             print("Shutdown Initiated")
             global shutdown_bool
             shutdown_bool = True
 
-        # Add shutdown function to button
+        // Add shutdown function to button
         button = Button(23)
         button.when_pressed = soft_shutdown #pretty sure this doesn't work
 
@@ -373,17 +373,17 @@ def main():
         scale_x = 320 / 1640
         scale_y = 240 / 1232
 
-        # Transform is a function to transform the face bounding box. Incoming boxes are of the form (x, y, width, height). Scale and
-        # transform to the form (x1, y1, x2, y2). X and Y are at the top left corner of the face bounding box.
+        // Transform is a function to transform the face bounding box. Incoming boxes are of the form (x, y, width, height). Scale and
+        // transform to the form (x1, y1, x2, y2). X and Y are at the top left corner of the face bounding box.
         def transform(bounding_box):
             x, y, width, height = bounding_box
             return (scale_x * x, scale_y * y, scale_x * (x + width),
                     scale_y * (y + height))
 
         def x_y_to_angles(x, y):
-            Span_X = 1640  # This is hard-coded resolution
+            Span_X = 1640  // This is hard-coded resolution
             Span_Y = 1232
-            MinDeg_X = 23  # These are hard coded servo angles, will need to be adjusted to match camera FOV
+            MinDeg_X = 23  // These are hard coded servo angles, will need to be adjusted to match camera FOV
             MaxDeg_X = -23
             MinDeg_Y = -18
             MaxDeg_Y = 19
@@ -410,13 +410,13 @@ def main():
                 faces = face_detection.get_faces(result)
                 annotator.clear()
                 for face in faces:
-                    annotator.bounding_box(transform(face.bounding_box), fill=0)  # adding bounding box to preview
+                    annotator.bounding_box(transform(face.bounding_box), fill=0)  // adding bounding box to preview
                 annotator.update()
                 print('Iteration #%d: num_faces=%d' % (i, len(faces)))
 
-                if faces:  # Give servo commands if a face is detected
+                if faces:  // Give servo commands if a face is detected
                     face = faces[0]
-                    x_corner, y_corner, width, height = face.bounding_box  # bounding box is top left corner
+                    x_corner, y_corner, width, height = face.bounding_box  // bounding box is top left corner
                     x = x_corner + width / 2
                     y = y_corner + height / 2
                     print('             : Face is at X = %d' % x)
@@ -435,8 +435,8 @@ def main():
                         NoFaceCount = 0
 
 
-                        # print('            : X Servo Angle =%d' % X_Degrees)
-                        # print('            : Y Servo Angle =%d' % Y_Degrees)
+                        // print('            : X Servo Angle =%d' % X_Degrees)
+                        // print('            : Y Servo Angle =%d' % Y_Degrees)
                         print(b"<%d,%d,%d,%d>" % (X_Degrees, Y_Degrees, L1_Degrees, L2_Degrees))
                         Last_Write_Time = time.time() * 1000
                     else:
