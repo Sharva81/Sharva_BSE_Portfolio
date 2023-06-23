@@ -261,7 +261,7 @@ float ConvertToCounts(float Degrees) {
 }
 ```
 
-```Python
+```Java
 #/usr/bin/env python3
 
 import picamera
@@ -273,7 +273,7 @@ camera.resolution = (1640, 1232)
 camera.framerate = 24
 camera.start_preview()
 
-# Load the arbitrarily sized image
+// Load the arbitrarily sized image
 img = Image.open('Crosshair_Black.png')
 # Create an image padded to the required size with
 # mode 'RGB'
