@@ -262,7 +262,7 @@ float ConvertToCounts(float Degrees) {
 ```
 
 ```Python
-#!/usr/bin/env python3
+#/usr/bin/env python3
 
 import picamera
 from PIL import Image
@@ -299,7 +299,7 @@ while True:
     sleep(1)
 
 
-#!/usr/bin/env python3
+#/usr/bin/env python3
 
 import argparse
 import serial
