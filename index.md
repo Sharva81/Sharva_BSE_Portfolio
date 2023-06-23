@@ -263,6 +263,12 @@ float ConvertToCounts(float Degrees) {
           
 }
 
+```
+
+# Python
+
+```Java
+
 #/usr/bin/env python3
 
 import picamera
@@ -298,11 +304,7 @@ o.layer = 3
 // Wait indefinitely until the user terminates the script
 while True:
     sleep(1)
-```
 
-# Python
-
-```Java
 
 #/usr/bin/env python3
 
