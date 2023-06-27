@@ -3,7 +3,7 @@ Ever feel as if there is pair of eyes always watching you 24/7? Ever feel as if 
 
 | **Name** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Sharva P | Mission San Jose Highschool | Electrical Engineering | Incoming Senior
+| Sharva P | Mission San Jose Highschool | Mechanical Engineering | Incoming Senior
 
 <!-- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
