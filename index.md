@@ -15,20 +15,17 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
+-->
 
 # Second Milestone
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
--->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iMNvpBLwmDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+For the Second Milestone, I wanted to demonstrate my face tracking software (which can be found below). The code is written in python and run from Thonny Python IDE. The code is sent through a Raspberry Pi Zero WH which has a AIY Vision Hat on top of it. Plugged into the Pi board are 3 different wires. The first wire is the HDMI cord to stream the output that is inside the SD card. The card is flashed with the latest Raspberry Pi Imager file. The second wire is used as a USB hub for the preripherals and the wire connecting the Raspberry Pi and the Arduino Uno R3. The final wire is the power which is connnected to a 5V power adapter. Using a ribbon cable, I am able to connect the Raspberry Pi to the Vision Hat. Another longer ribbon cable connects Vision Hat to the PiCamera V2.1. Here is a basic overview of how the code works: First the Camera is imported and the resolution and frame size is set. Then the image Annotator is imported. This is a tool that I can use in the code to identify and point out specific objects that I choose. So, I set the object to any faces, and once the face is found, it returns a XY coordinate to the board. The board then sends these codes to the arduino, where it converts these codes, to a calibrated servo position (eye mechanism). My main issue, that delayed me for two weeks, was the fact the electronics were faulty. First the PiCamera V2 is known to be faulty, and it turns out the first one I got didn't work in the first place. After replacing it, I later found out the Raspberry Pi board doesn't work either. Once replacing both electronics, my code ran smoothly. Another small challenge was due to the fact I am using a MacOS to work. Since the OS software cannot work as a monitor, I had to use OBS, Open Broadcasting Software, in order to stream the SD Card in the Pi Board. This made the process of booting up and updating electronics veryh complicated and inefficient. For my next and Final Milestone, I plan on finishing the complete mechanism, where the software and hardware can compile together. 
+
 
 # First Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKRm5gqWMoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
-First let’s talk about the components of the Robot. The eye mechanism is a complex robotic eye that is powered with 6 servos in total. 4 of the 6 servos are used to control the up down left and right movements of the eyeball. The other 2 are used for closing and opening eyelids. Inside eyeballs are laser diodes to help calibrate. Next let’s talk about the arduino board. I used an Arduino Uno r3 and a servo sheild, whiched is stacked on top, to power servos. It also powers the laser diodes that are regulated with a 5V relay. Finally I used a AIY vision kit to track the human face from camera. The challenges I faced had to do mainly with the eye mechanism. The assembly of the eye was took almost 3 days because the 3D printer and the parts to be assembled were small. The fragility of the parts made it prone to snapping; therefore, needing more prints. Since they were small everything was handtighthened by a allen key. Next was to figure out the wiring needed to power all the different parts. This was the first time using Arduino so I had to learn everything about it before assembling. My plan for the future is to figure out the code for the eyemechanism and the face tracking.
+First, let's talk about the components of the robot. The eye mechanism is a complex robotic eye powered by a total of 6 servos. Four out of the six servos are used to control the up, down, left, and right movements of the eyeball, while the other two are used for closing and opening the eyelids. Inside the eyeballs, there are laser diodes to assist with calibration. Next, let's discuss the Arduino board. I used an Arduino Uno R3 and a servo shield, which is stacked on top, to power the servos. It also provides power to the laser diodes, which are regulated with a 5V relay. Lastly, I used an AIY vision kit to track human faces from the camera. The challenges I encountered were mainly related to the eye mechanism. Assembling the eye took almost 3 days due to the small size of the 3D printer and the parts that needed to be assembled. The fragility of the parts made them prone to snapping, requiring additional prints. Since everything was small, I had to tighten all the components by hand using an Allen key. Another challenge was figuring out the wiring necessary to power all the different parts. Since this was my first time using Arduino, I had to learn everything about it before assembling the components. Moving forward, my plan is to develop the code for the eye mechanism and the face tracking functionality.
 
 
 # Starter Project
@@ -462,7 +459,7 @@ def main():
 if __name__ == '__main__':
     main()
   ```
-
+<!---
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
