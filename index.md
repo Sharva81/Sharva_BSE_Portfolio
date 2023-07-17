@@ -248,7 +248,7 @@ float ConvertToCounts(float Degrees) {
 </details>
 
 
-<details>
+<details markdown=1>
 <summary>Python/Raspberry Pi</summary>
 <br>
 # Python
