@@ -51,7 +51,7 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 # Code
 
 <details>
-<summary>Java</summary>
+<summary>Java/Arduino</summary>
 <br>
 ```Java
 // This sketch receives serial information in the format <x,y,L1,L2> where the the variables (x,y,L1,L2) are degree values.
@@ -247,8 +247,10 @@ float ConvertToCounts(float Degrees) {
 }
 
 ```
-</details/
-
+</details>
+<details>
+<summary>Python/Raspberry Pi</summary>
+<br>
 # Python
 
 ```Java
@@ -458,6 +460,7 @@ def main():
 if __name__ == '__main__':
     main()
   ```
+</details>
 <!---
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
