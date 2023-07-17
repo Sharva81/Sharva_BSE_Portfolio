@@ -245,8 +245,6 @@ float ConvertToCounts(float Degrees) {
            return Counts;
           
 }
-
-```
 </details>
 
 
