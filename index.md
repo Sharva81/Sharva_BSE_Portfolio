@@ -45,17 +45,14 @@ One of the best parts about Github is that you can view how other people set up 
 To watch the BSE tutorial on how to create a portfolio, click here.
 
 -->
----
-layout: default
-title: Python:Raspberry Pi
-nav_order: 5
-has_children: true
----
+
+
 
 # Code
 
-# Java 
-
+<details>
+<summary>Java</summary>
+<br>
 ```Java
 // This sketch receives serial information in the format <x,y,L1,L2> where the the variables (x,y,L1,L2) are degree values.
 // Angle values are then adjusted with calibration values before they are sent to each servo
@@ -250,6 +247,7 @@ float ConvertToCounts(float Degrees) {
 }
 
 ```
+</details/
 
 # Python
 
