@@ -256,9 +256,7 @@ float ConvertToCounts(float Degrees) {
 # Python
 
 <details markdown="1">
-  
-
-
+<summary>Camera Preview</summary>
 
 ```Java
 
@@ -297,6 +295,16 @@ o.layer = 3
 // Wait indefinitely until the user terminates the script
 while True:
     sleep(1)
+
+```
+
+</details>
+
+<details markdown="1">
+<summary>Eye Mechanism RaspPi</summary>
+
+  
+```Java
 
 
 #/usr/bin/env python3
