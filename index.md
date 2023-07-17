@@ -47,7 +47,10 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 -->
 ---
 layout: default
-title:
+title: Python:Raspberry Pi
+nav_order: 5
+has_children: true
+---
 
 # Code
 
