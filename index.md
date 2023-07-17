@@ -51,6 +51,7 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 # Code
 
 <details markdown="1">
+  
 <summary>Java/Arduino</summary>
 <br>
 ```Java
@@ -245,10 +246,12 @@ float ConvertToCounts(float Degrees) {
            return Counts;
           
 }
+
 </details>
 
 
 <details markdown="1">
+  
 <summary>Python/Raspberry Pi</summary>
 <br>
 # Python
