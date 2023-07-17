@@ -250,7 +250,7 @@ float ConvertToCounts(float Degrees) {
 </details>
 
 
-<details markdown="1">
+<details markdown="2">
   
 <summary>Python/Raspberry Pi</summary>
 <br>
@@ -463,7 +463,9 @@ def main():
 if __name__ == '__main__':
     main()
   ```
+
 </details>
+
 <!---
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
@@ -503,4 +505,4 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-
+-->
