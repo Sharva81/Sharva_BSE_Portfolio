@@ -50,7 +50,7 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 
 # Code
 
-<details>
+<details markdown="1">
 <summary>Java/Arduino</summary>
 <br>
 ```Java
@@ -248,7 +248,7 @@ float ConvertToCounts(float Degrees) {
 </details>
 
 
-<details markdown=1>
+<details markdown="1">
 <summary>Python/Raspberry Pi</summary>
 <br>
 # Python
