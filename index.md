@@ -52,9 +52,8 @@ To watch the BSE tutorial on how to create a portfolio, click here.
 
 <details markdown="1">
   
-<summary>Java/Arduino</summary>
-<br>
 ```Java
+
 // This sketch receives serial information in the format <x,y,L1,L2> where the the variables (x,y,L1,L2) are degree values.
 // Angle values are then adjusted with calibration values before they are sent to each servo
 
@@ -247,13 +246,15 @@ float ConvertToCounts(float Degrees) {
           
 }
 
+```
+
 </details>
 
 
-<details markdown="2">
+
+<details markdown="1">
   
-<summary>Python/Raspberry Pi</summary>
-<br>
+
 # Python
 
 ```Java
