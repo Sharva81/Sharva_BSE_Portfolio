@@ -8,14 +8,12 @@ Ever feel as if there is pair of eyes always watching you 24/7? Ever feel as if 
 <!-- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
+-->
   
 # Final Milestone
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
--->
+
+The final version incorporates both the mechanical eye mechanism from Milestone 1 and the face tracking software from Milestone 2. As I explained in Milestone 2, once a face is detected in the live feed from the Pi Camera and coordinates of the face are sent to the arduino, they are translated into servo positions. This causes the eyes to move and follow the person in view around. The final thing I added to the project was a face so it doesn’t look like floating eyeballs but an actual human. There were a couple of issues that came up at the stage of combining the mechanisms. One was the fact the servo positions weren’t mechanically set to zero while building , which meant the positions in the code didn’t accurately translate to the right positions. To fix this, the whole eye mechanism had to be taken off. After that the servo screw attaching the "muscle" for the eye was taken and reset to the physical zero position. Another thing was the serial code being outputted by the raspberry pi, didn’t match the Arduino. This meant that the code sent through the Raspberry Pi board was too fast for the Arduino to read. This was fixed through manually setting the input and output speeds of the boards. The last problem I encountered was the fact that the Raspberry Pi and Arduino had to be powered separately otherwise the servos didn’t have enough power to work. This project was really fun to build and code and it gave me a true experience of the engineering process. It wasn’t easy, which is what I hoped for, and made sure I kept being persistent in finding the problems. Sometimes it could be as small as not a secure wire or a whole board corrupting. Looking back, the guide wasn’t well made for me, which meant this was pretty much a self interpreted project. Things I would add to the Watchman robot in the future would be some sort of speaker or microphone so the mask could convey some creepy message. Another thing that could be added would be a lower body or neck of some sort to make the robot more interactive and have a larger range of detection.
+
 
 # Second Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iMNvpBLwmDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
