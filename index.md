@@ -245,9 +245,9 @@ float ConvertToCounts(float Degrees) {
            return Counts;
           
 }
-
-```
 </details>
+```
+
 <details>
 <summary>Python/Raspberry Pi</summary>
 <br>
