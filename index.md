@@ -480,64 +480,65 @@ if __name__ == '__main__':
 
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+<details markdown="1">
+<summary>List</summary>
+<br>
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | 3D printer | Type does not matter. For this project I used: Ender-3 V2 Neo | $269.99 | <a href="https://store.creality.com/products/ender-3-v2-neo-3d-printer?official-website-product-ender-top=&spm=..product_f4732014-6975-47d2-afe0-f84196b41630.nav_link_store_1.1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Filament | Will need lots of filament, common to get failed parts | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Filament | Will need lots of filament, common to get failed parts | $23.59 | <a href="(https://store.creality.com/products/ender-1-75mm-pla-3d-printing-filament-1kg-2p0t?spm=..collection_b55960dc-bbb9-47c1-a06f-657301786e15.albums_1.1&spm_prev=..index.products_display_nav_1.1)"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Soldering Iron + Solder | Connecting electrical components | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Soldering Iron + Solder | Connecting electrical components. PSA get extra solder | $11.68 | <a href="(https://www.amazon.com/Soldering-soldering-solder-adjustable-temperature/dp/B09DY7CCW5/ref=sr_1_24?keywords=soldering+iron+kit&qid=1689698535&sr=8-24)"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| M2 Allen Key | For screwing the pieces for the eye mechanisms | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| M2 Allen Key | For screwing the pieces for the eye mechanisms | $5.99 | <a href="(https://www.amazon.com/B-FUL-Allen-Wrench-Sizes-1-5-6mm/dp/B07PGVFL6W/ref=sr_1_6?hvadid=345542740441&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=13597869483429660045&hvtargid=kwd-296398166094&hydadcr=29005_10168365&keywords=m2%2Ballen%2Bkey&qid=1689698611&sr=8-6&th=1)"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Laser Diodes (650 nm / 5 mW) x2 | To calibrate the eyes for tracking | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Laser Diodes (650 nm / 5 mW) x2 | To calibrate the eyes for tracking | $6.79 | <a href="(https://www.amazon.com/HiLetgo-10pcs-650nm-Diode-Laser/dp/B071FT9HSV/ref=sr_1_3?hvadid=580752791954&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=6804941175747209734&hvtargid=kwd-60483869014&hydadcr=28958_14563911&keywords=5v+laser+diode&qid=1689698649&sr=8-3)"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| M2 Screw Kit | Need variations of M2 screws, better to buy larger kit | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| M2 Screw Kit | Need variations of M2 screws, better to buy larger kit | $28.68 | <a href="(https://www.amazon.com/iExcell-Metric-Stainless-Washers-Assortment/dp/B082RCL2LW/ref=sr_1_16?crid=36JF9JBFJOTXX&keywords=hex+socket+cap+screws+M2&qid=1689698954&sprefix=hex+socket+cap+screws+m%2Caps%2C157&sr=8-16)"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| GoBilda Servos x6 | Didn't use GoBilda, but preferable due to better torque and speed. Mechanism bound to run smoother. | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| GoBilda Servos x6 | Didn't use GoBilda, but preferable due to better torque and speed. Mechanism bound to run smoother. | $31.99/ea | <a href="(https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/)"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Screwdriver | Many screws are needed to thread holes into 3D printed parts | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Screwdriver | Many screws are needed to thread holes into 3D printed parts | $9.86 | <a href="https://www.amazon.com/SUNHZMCKP-Screwdriver-multi-purpose-screwdriver%EF%BC%8CHigh-Torx%EF%BC%8CSuitable/dp/B08BXJTQCV/ref=sr_1_23?keywords=screwdriver&qid=1689699340&sr=8-23"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Arduino Uno R3 board | Connects Servo, power, and laser diodes. Holds code for the eye mechanism. | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino Uno R3 board | Connects Servo, power, and laser diodes. Holds code for the eye mechanism. | $29.95 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Google Vision Kit | The is the main hardware for the tracking mechanism. | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Google Vision Kit | The is the main hardware for the tracking mechanism. If discontinued, indivually order parts. | $99.95 | <a href="https://www.adafruit.com/product/3780"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Positive Wire | Need a whole spool for connecting servos, Raspberry Pi, Camera, laser diodes, power, and 5V relay | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Raspberry Pi Camera V2 | One is included in the Google Vision Kit, but these cameras are known for being faulty so buy an extra one in case. | $35.00 | <a href="https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B01ER2SKFS/ref=asc_df_B01ER2SKFS/?tag=hyprod-20&linkCode=df0&hvadid=309776868400&hvpos=&hvnetw=g&hvrand=6777190906928985617&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-406302832745&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Ground Wire | Need a whole spool for connecting servos, Raspberry Pi, Camera, laser diodes, power, annd 5V relay | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 9V Battery  | Power for Arduino Board | $9.99 | <a href="https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B0774D64LT/ref=sr_1_5?hvadid=410049284807&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=7214474178270115369&hvtargid=kwd-464156346145&hydadcr=4229_11143345&keywords=9%2Bvolt&qid=1689699881&sr=8-5&th=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Raspberry Pi Camera V2 | One is included in the Google Vision Kit, but these cameras are known for being faulty so buy an extra one in case. | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Wire | Need a whole spool for connecting servos, Raspberry Pi, Camera, laser diodes, power, and 5V relay | $14.99 | <a href="https://www.amazon.com/TUOFENG-Hookup-Wires-6-Different-Colored/dp/B07TX6BX47/ref=sr_1_29?hvadid=580555199979&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=14313782213096234770&hvtargid=kwd-42459710&hydadcr=6891_13209663&keywords=electrical+wire&qid=1689699707&sr=8-29"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| 9V Battery  | Power for Arduino Board | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Battery power adapter | Can be plugged into the 9V battery and soldered onto the servo hat | $5.99 | <a href="https://www.amazon.com/Battery-Connector-I-Type-Plastic-Housing/dp/B07TRKYZCH"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Battery power adapter | Can be plugged into the 9V battery and soldered onto the servo hat | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Power Bank with USB A output at 5V | To power raspberry pi without needing an external wall | $12.99 | <a href="https://www.amazon.com/EnergyQC-Portable-Charging-Ultra-Compact-Compatible/dp/B09Z6S7L4P/ref=sr_1_11?keywords=5v+power+bank&qid=1689700110&sr=8-11"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Power Bank with USB A output at 5V | To power raspberry pi without needing an external wall | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Electrical Tape | General use | $24.99 | <a href="https://www.amazon.com/Weather-Resistant-Colored-Electrical-Nova-Electric/dp/B076JJDS1L/ref=sr_1_8?hvadid=616991206274&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=3904053447894082767&hvtargid=kwd-21804356&hydadcr=24660_13611807&keywords=electrical+tape&qid=1689703562&sr=8-8"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Electrical Tape | General use | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| MOS Module | Regulate current for the laser diodes | $10.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Onyehn-Mosfet-Button-Arduino-Raspberry/dp/B07GLNCRR4)"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| 5V Relay | Regulate current for the laser diodes | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Heat Shrink | General Use | $16.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/Wirefy-275-Heat-Shrink-Tubing/dp/B084GWYX42/ref=sr_1_3?hvadid=664755229846&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=11486415139271556957&hvtargid=kwd-341631528701&hydadcr=3644_13690564&keywords=wiring+heat+shrink+tubing&qid=1689703638&sr=8-3)"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Heat Shrink | General Use | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| HDMI Cable | Mini HDMI to HDMI | $10.98 | <a href="https://www.amazon.com/JSAUX-Aluminum-Compatible-Camcorder-Raspberry/dp/B08DK4LVYX/ref=sr_1_3?hvadid=233484030855&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=17895052026618409799&hvtargid=kwd-7403862453&hydadcr=18887_10145554&keywords=mini+hdmi+to+hdmi&qid=1689703673&sr=8-3"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| HDMI Cable | Mini HDMI to HDMI | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| HDMI Capture card | HDMI to USB A | $18.99 | <a href="https://www.amazon.com/AMZHRLY-Recording-Camcorder-Streaming-Conference/dp/B0974MJY14/ref=sr_1_4?hvadid=570507335023&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=6672548318186623628&hvtargid=kwd-4936107645&hydadcr=18007_13462294&keywords=hdmi+capture+card&qid=1689703742&sr=8-4"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| HDMI Capture card | HDMI to USB A | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| USB A to USB C Adapter | Only needed for mac | $6.99 | <a href="https://www.amazon.com/Temdan-USB-Adapter-SuperSpeed-Transfer/dp/B0BMVHHT47/ref=sr_1_3?hvadid=557527747876&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=9406352976371971107&hvtargid=kwd-350624214876&hydadcr=18004_13447364&keywords=usb+a+to+usb-c&qid=1689703846&sr=8-3"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| USB A to USB C Adapter | Only needed for mac | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Micro USB Port | Used to connect all the peripherals and serial | $6.99 | <a href="https://www.amazon.com/LoveRPi-MicroUSB-Port-Black-Raspberry/dp/B01HYJLZH6/ref=sr_1_3?hvadid=581221078510&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=11821711121676020260&hvtargid=kwd-317261059863&hydadcr=24659_11410797&keywords=micro+usb+to+hub&qid=1689703973&s=electronics&sr=1-3"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Micro USB Port | Used to connect all the peripherals and serial | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Serial Wire | Send code from Raspberry Pi to Arduino | $6.99 | <a href="(https://www.amazon.com/DIYmall-Cable-Arduino-2560-Pack/dp/B09JRXT1TY/ref=sr_1_4?keywords=arduino+usb+cable&qid=1689704177&sr=8-4)"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Serial Wire | Send code from Raspberry Pi to Arduino | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Nylon Screw set | Fits Raspberry Pi boards to connect to 3D print | $16.99 | <a href="(https://www.amazon.com/Readytosky-Plastic-Machine-Assortment-Organizer/dp/B07Q3W65FV)"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Nylon Screw set | Fits Raspberry Pi boards to connect to 3D print | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Tripod (Optional) | Used to hold the face | $20.89 | <a href="https://www.amazon.com/AmazonBasics-Lightweight-Camera-Mount-Tripod/dp/B00XI87KV8/ref=sr_1_4?hvadid=616863175854&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=9342669726832163304&hvtargid=kwd-10922890&hydadcr=24662_13611802&keywords=camera+tripod&qid=1689704480&sr=8-4"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Tripod (Optional) | Used to hold the face | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Hex Nut | Used for Tripod; hold it in place | $5.98 | <a href="https://www.amazon.com/Prime-Line-9073221-Finished-Plated-50-Pack/dp/B07FCRWF5N/ref=sr_1_3?hvadid=234265091908&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=2433767895350711731&hvtargid=kwd-378380042141&hydadcr=24664_9649023&keywords=hex+nut+1%2F4&qid=1689704895&sr=8-3"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Hex Nut w/ flat | Used for Tripod; hold it in place | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
-| Jumper wires M-F | Male to female jumper wires to connect relay | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Jumper wires M-F | Male to female jumper wires to connect relay | $5.49 | <a href="https://www.amazon.com/GenBasic-Solderless-Dupont-Compatible-Breadboard-Prototyping/dp/B077N643L7/ref=sr_1_4?hvadid=570432716151&hvdev=c&hvlocphy=9032171&hvnetw=g&hvqmt=e&hvrand=5073019930584598753&hvtargid=kwd-45429255008&hydadcr=19138_13375004&keywords=jumper%2Bwires%2Bmale%2Bto%2Bfemale&qid=1689704517&sr=8-4&th=1"> Link </a> |
+
+</details>
 
