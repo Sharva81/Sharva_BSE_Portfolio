@@ -485,7 +485,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| 3D printer | Type does not matter. For this project I used: Ender-3 V2 Neo | $269.99 | <a (https://store.creality.com/products/ender-3-v2-neo-3d-printer?official-website-product-ender-top=&spm=..product_f4732014-6975-47d2-afe0-f84196b41630.nav_link_store_1.1)"> Link </a> |
+| 3D printer | Type does not matter. For this project I used: Ender-3 V2 Neo | $269.99 | <a href="https://store.creality.com/products/ender-3-v2-neo-3d-printer?official-website-product-ender-top=&spm=..product_f4732014-6975-47d2-afe0-f84196b41630.nav_link_store_1.1"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Filament | Will need lots of filament, common to get failed parts | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
