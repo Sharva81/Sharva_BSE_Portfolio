@@ -36,15 +36,6 @@ For my starter project I decided to make the TV-B-Gone kit. This small compact d
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 -->
 
-# Debug Resources
-These are all the resources I used to debug. Some pertained to my specific problem, others didn't. Each topic is listed, and has drop down under it
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
-
-
 # Java
 
 <details markdown="1">
@@ -473,6 +464,17 @@ if __name__ == '__main__':
   ```
 
 </details>
+
+# Debug Resources
+These are all the resources I used to debug. Some pertained to my specific problem, others didn't. Each topic is listed, and has drop down under it.
+<!--Serial Debug-->
+- [serial.serialutil.SerialTimeoutException: Write timeout](https://github.com/espressif/esp-idf/issues/8670)
+- [error": cannot open /dev/ttyACM0 port](https://forums.raspberrypi.com/viewtopic.php?t=308293)
+- [ipmitool - can't find /dev/ipmi0 or /dev/ipmidev/0](https://serverfault.com/questions/480371/ipmitool-cant-find-dev-ipmi0-or-dev-ipmidev-0)
+- [How to fix "SerialTimeoutException: Write timeout" error with NodeMCU and arduino ide](https://stackoverflow.com/questions/56197395/how-to-fix-serialtimeoutexception-write-timeout-error-with-nodemcu-and-arduin)
+- [How to solve ReadTimeoutError: HTTPSConnectionPool(host='pypi.python.org', port=443) with pip?](https://stackoverflow.com/questions/43298872/how-to-solve-readtimeouterror-httpsconnectionpoolhost-pypi-python-org-port)
+- [Idea to get serial ports working WITH external power supply](https://forum.arduino.cc/t/idea-to-get-serial-ports-working-with-external-power-supply/122413)
+- 
 
 
 # Bill of Materials
