@@ -33,7 +33,7 @@ For my starter project I decided to make the TV-B-Gone kit. This small compact d
 
 
 # Schematics 
-![Circuit]()
+![Circuit](schematics.png)
 
 # Java
 
