@@ -9,7 +9,7 @@ Ever feel as if there is pair of eyes always watching you 24/7? Ever feel as if 
 
 ![Headstone Image](logo.svg)
 -->
-<img src="https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html" width="200" height="400" >
+<img src="file:///Users/maverick/Downloads/headshot%202.JPG/headshot.JPG.html" width="200" height="400" >
   
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uw-IKo6svxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
