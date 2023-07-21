@@ -32,9 +32,8 @@ First, let's talk about the components of the robot. The eye mechanism is a comp
 For my starter project I decided to make the TV-B-Gone kit. This small compact device majorly impacts large TVs with just a push of a button. No matter the company, place, or area, this pocket device can turn any TV off. So let us talk about the key parts in this project. Starting with the power supply, it uses 2 AA batteries, producing 3V of power. To emit the light to interact with the TVs, it uses IR LEDs which emit at 940nm. Obviously we have to include the button to start the code and finally it uses things like resonators and transistors to keep the current and electricity constant throughout the device. A resonator acts a clock on a circuit board so the functions from the chip are running in a timely matter. Meanwhile, the transistor acts as a regulator to keep the current up to the specific voltage needed. This was a great project to introduce circuits and LEDs which will help me in my main project that incorporates laser diodes. 
 
 
-<!-- # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
--->
+# Schematics 
+![Circuit]()
 
 # Java
 
