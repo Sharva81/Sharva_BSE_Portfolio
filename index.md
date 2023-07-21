@@ -9,7 +9,7 @@ Ever feel as if there is pair of eyes always watching you 24/7? Ever feel as if 
 
 ![Headstone Image](logo.svg)
 -->
-
+![](headshotS.png)
   
 # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uw-IKo6svxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
